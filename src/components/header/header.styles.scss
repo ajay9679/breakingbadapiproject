@@ -1,0 +1,50 @@
+@import '../../sassStyles/variables';
+
+.header{
+	height: 7rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 2rem;
+
+	.heading{ cursor: pointer; }
+
+	.search{
+		flex: 0 0 20%;
+
+		&__input{
+			width: 100%;
+			font-family: inherit;
+			font-size: inherit;
+			background-color: var(--color-grey-light-2);
+			border: none;
+			margin-right: -3rem;
+			color: var(--color-grey-dark-2);
+			padding: .7rem 2rem;
+			transition: all .3s;
+
+			&:focus{
+				outline: none
+			}
+
+			&::-webkit-input-placeholder{
+				font-weight: 100;
+			}
+		}
+
+		&__button{
+			border: none;
+			background-color: var(--color-grey-light-2);
+		}
+
+		&__icon{
+			width: 2rem;
+			height: 2rem;
+
+			@media only screen and(max-width: $bp-small){
+				width: 1rem;	
+				height: 1rem;	
+			}
+		}
+	}
+}

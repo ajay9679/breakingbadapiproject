@@ -1,0 +1,44 @@
+@import '../../sassStyles/variables';
+
+.content{
+	max-width: 100%;
+	height: 100vh;
+}
+
+.character{
+	margin: 8rem  auto;
+	width: 80%;
+	display: flex;
+	font-size: 1.5rem;
+	/* justify-content: space-around; */
+
+	@media only screen and(max-width: $bp-small){
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		/* align-items: center; */
+	}
+
+	&__details{
+		margin: 2rem 5rem;
+
+		& > *{
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__image{
+		flex: 0 0 18%;
+		width: 30%;
+		height: 30%;
+
+		@media only screen and(max-width: $bp-small){
+			width: 100%;
+			height: 50%;
+		}
+	}
+
+	&__status{
+		color: green;
+	}
+}
