@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/breakingbadapiproject/static/css/main.9fcde4cf.chunk.css",
+    "main.js": "/breakingbadapiproject/static/js/main.6349f134.chunk.js",
+    "main.js.map": "/breakingbadapiproject/static/js/main.6349f134.chunk.js.map",
+    "runtime-main.js": "/breakingbadapiproject/static/js/runtime-main.ee46f87b.js",
+    "runtime-main.js.map": "/breakingbadapiproject/static/js/runtime-main.ee46f87b.js.map",
+    "static/js/2.465622e7.chunk.js": "/breakingbadapiproject/static/js/2.465622e7.chunk.js",
+    "static/js/2.465622e7.chunk.js.map": "/breakingbadapiproject/static/js/2.465622e7.chunk.js.map",
+    "index.html": "/breakingbadapiproject/index.html",
+    "static/css/main.9fcde4cf.chunk.css.map": "/breakingbadapiproject/static/css/main.9fcde4cf.chunk.css.map",
+    "static/js/2.465622e7.chunk.js.LICENSE.txt": "/breakingbadapiproject/static/js/2.465622e7.chunk.js.LICENSE.txt",
+    "static/media/sprite.5698ce6b.svg": "/breakingbadapiproject/static/media/sprite.5698ce6b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee46f87b.js",
+    "static/js/2.465622e7.chunk.js",
+    "static/css/main.9fcde4cf.chunk.css",
+    "static/js/main.6349f134.chunk.js"
+  ]
+}
